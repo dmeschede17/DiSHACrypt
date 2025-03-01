@@ -29,7 +29,7 @@ string digest2 = new SHACryptSHA256().Crypt("a_password", "my_salt");
 Console.WriteLine($"\nSHA-256 digest with specified salt and default rounds:\n{digest2}");
 ```
 
-### Generate SHA-512 digest string with specified salt and rounds
+#### Generate SHA-512 digest string with specified salt and rounds
 
 ```csharp
 using DiSHACrypt;
@@ -39,7 +39,7 @@ string digest3 = new SHACryptSHA512().Crypt("yetanotherpwd", "yetanothersalt", 7
 Console.WriteLine($"\nSHA-512 digest with specified salt and rounds:\n{digest3}");
 ```
 
-### Generate MySQL caching_sha2_password authentication string with random salt and specified rounds
+#### Generate MySQL caching_sha2_password authentication string with random salt and specified rounds
 
 ```csharp
 using DiSHACrypt;
