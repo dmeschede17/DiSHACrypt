@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Version>1.0.1</Version>
+        <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Title>DiSHACrypt</Title>
+        <Authors>Dietmar Meschede</Authors>
+        <Description>Implementation of 'Unix crypt using SHA-256 and SHA-512' algorithm including a variant for MySQL's caching_sha2_password authentication plugin.</Description>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageTags>crypt;SHA-256;SHA-512;MySQL;caching_sha2_password</PackageTags>
+        <Copyright>Copyright (c) 2025 Dietmar Meschede</Copyright>
+        <RepositoryUrl>https://github.com/dmeschede17/DiSHACrypt</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="..\README.md">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
+    </ItemGroup>
+
+</Project>
